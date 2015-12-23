@@ -2,7 +2,7 @@ angular.module('project', ['restangular', 'ngRoute']).
   config(function($routeProvider, RestangularProvider) {
     $routeProvider.
       when('/', {
-        controller:ListCtrl, 
+        controller:ListCtrl,   //abc
         templateUrl:'list.html'
       }).
       when('/edit/:projectId', {
